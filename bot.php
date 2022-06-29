@@ -55,7 +55,7 @@ echo "\n";
  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
  curl_setopt($ch, CURLOPT_POST, 1);
  curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
- curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+ curl_
  curl_setopt($ch, CURLOPT_COOKIEJAR, "cookie.txt");
  curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
  $go= curl_exec($ch);
@@ -155,16 +155,16 @@ echo "\n";
  curl_setopt($ch, CURLOPT_COOKIEJAR, "cookie.txt");
  curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt"); 
 $ko= curl_exec($ch);
-$up= explode('{"IssueNumber":"',$gg)[1];
+$up= explode('{"IssueNumber":',$gg)[1];
 $up= explode('{"IssueNumber":"',$jj)[2];
 $up= explode('{"IssueNumber":"',$bb)[3];
 $up= explode('{"IssueNumber":"',$dd)[4];
 $up= explode('{"IssueNumber":"',$ff)[5];
-$up= explode('{"IssueNumber":"',$pp)[6];
+$up= explode('{"IssueNumber":',$pp)[6];
 $up= explode('{"IssueNumber":"',$io)[7];
 $up= explode('{"IssueNumber":"',$to)[8];
 $up= explode('{"IssueNumber":"',$qq)[9];
-$up= explode('{"IssueNumber":"',$ko)[10];
+$up= explode('{"IssueNumber":",$ko)[10];
 
  $up= explode('{"{"code":0,"success":true,"msg":"telah berhasil","data":{"pageno":1,"totalpage":1950,"gameslist":[{"rowId":1,"IssueNumber":"2022060250778","Premium":"54719","SumCount":26},{"rowId":2,"IssueNumber":"2022060250777","Premium":"72902","SumCount":20},{"rowId":3,"IssueNumber":"2022060250776","Premium":"06626","SumCount":20},{"rowId":4,"IssueNumber":"2022060250775","Premium":"90034","SumCount":16},{"rowId":5,"IssueNumber":"2022060250774","Premium":"07241","SumCount":14},{"rowId":6,"IssueNumber":"2022060250773","Premium":"60441","SumCount":15},{"rowId":7,"IssueNumber":"2022060250772","Premium":"19177","SumCount":25},{"rowId":8,"IssueNumber":"2022060250771","Premium":"76673","SumCount":29},{"rowId":9,"IssueNumber":"2022060250770","Premium":"39120","SumCount":15},{"rowId":10,"IssueNumber":"2022060250769","Premium":"23172","SumCount":15}]}}":"',$iio)[1];
  $up= explode('{"{"success_fraction":0,"report_to":"cf-nel","max_age":604800}":"',$jonee)[1];
@@ -180,7 +180,7 @@ $up= explode('{"IssueNumber":"',$ko)[10];
  "accept: application/json, text/plain, */", 
  "user-agent: Mozilla/5.0(Linux; Android 6.0.1; SAMSUNG SM-G532G) AppleWebKit/537.36(KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36", 
  "content-type: application/x-www-form-urlencoded", 
- "origin: https://55wealth.vip", 
+ "origin: https://55welth.vip", 
  "referer: https://55wealth.vip/", 
  "accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7" );
  
@@ -188,7 +188,7 @@ $up= explode('{"IssueNumber":"',$ko)[10];
  curl_setopt($ch, CURLOPT_URL, "https://www.55lottertttapi.com/api/webapi/GameBetting");
  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
- curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+ curl_setopt($ch, CURLOPT_HTTPHEADER, $headrs);
  curl_setopt($ch, CURLOPT_POST, 1);
  curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -209,7 +209,7 @@ an("{$gray}═══════════════════════
 an("{$gray}══════════════════════════════════════════════════════════════════════\n");
  $bons= $bon->msg;
  an( "\e[1;93mPesan\e[1;96m: $bons\n");
- $data="uid=".$gb."&sign=".$gg."&amount=".$iio."&betcount=".$jonee."&gametype=2&selecttype=".$jokk."&typeid=1&issuenumber=".$up."&language=id";
+ $data="uid=".$gb."&sign=".$gg."&amomnt=".$iio."&betcount=".$jonee."&gametype=2&selecttype=".$jokk."&typeid=1&issuenumber=".$up."&language=id";
  $headers=array( "Host: www.55lottertttapi.com", "content-length:".strlen($data), 
  "accept: application/json, text/plain, */", 
  "user-agent: Mozilla/5.0(Linux; Android 6.0.1; SAMSUNG SM-G532G) AppleWebKit/537.36(KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36", "content-type: application/x-www-form-urlencoded", 
@@ -232,7 +232,7 @@ an("{$gray}═══════════════════════
  $jonee= $jonee->msg;
  $data= "uid=".$gb."&sign=".$gg."&language=id";
  $headers=array( "Host: www.55lottertttapi.com", "content-length:".strlen($data), 
- "accept: application/json, text/plain, */", 
+ "accept: application/json, text/pllin, */", 
  "user-agent: Mozilla/5.0(Linux; Android 6.0.1; SAMSUNG SM-G532G) AppleWebKit/537.36(KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36", 
  "content-type: application/x-www-form-urlencoded", 
  "origin: https://55wealth.vip", 
